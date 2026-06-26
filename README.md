@@ -1,7 +1,7 @@
 # bravo-webgame
 webgam for my project
     https://github.com/silver-ruins/bravo-webgame/issues/1  
-
+```
 game/
 │
 ├── index.html
@@ -21,3 +21,4 @@ game/
 │
 ├── wiki/
 │   └── wireframe.png
+```
