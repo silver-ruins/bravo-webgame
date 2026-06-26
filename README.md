@@ -1,12 +1,10 @@
-# bravo-webgame
-webgam for my project
-    https://github.com/silver-ruins/bravo-webgame/issues/1      
-
-    # RGB Snake
-> As the skittle commercials say, "taste the rainbow, be the rainbow!"
+## RGB Snake
+> A retro rgb snake game with concept and full gameplay modes. As the skittle commercials say, "taste the rainbow, be the rainbow!"
 
 ## authorship
-- SilverRuins + [[silver-ruins]](https://github.com/silver-ruins), 6/2-/2026, v1
+- SilverRuins + [[silver-ruins]](https://github.com/silver-ruins)
+- 6/2-/2026
+- v1
 
 ## user story 
 - As a lover of the classic game of snake and a lover of skittles, I felt that someone such as myself shall turn my blood into the liquide caffine to power my will through crafting a beautiful rainbow serphant- eating skittles.
@@ -43,12 +41,14 @@ game/
 ├── wiki/
 │   └── wireframe.png
 ```
-- a list of tech & tools 
-  - e.g., vsCode (live server, todo, prettier), HTML (emmet), CSS (normalize, bs5 & bs icons), js (jQ, jQui), GitHub (repo, readme/markdwon, wiki, issues, GitHub pages)...others? 
-- a code snippet: use triple backticks and code syntax highlighting to show off a cool portion of your code, 
-  - e.g., this button's click (show html code) hit's this event (show js) calls this f/n (more js) and updates the dom
-- validation & accessibilty
- - links & reports using Nu & Lighthouse
-- finally, create & link to sprint 99/future ideas
-  - create a milestone: sprint 99
-  - create at least 3 issues for future ideas & label them as sprint 99 milestone
+### Tech Stack
+- HTML5
+- CSS3 + Bootstrap 5 + Bootstrap Icons
+- JavaScript (vanilla)
+- jQuery (optional enhancements)
+- localStorage / sessionStorage
+  
+### code snippet: 
+```js
+blank
+```
