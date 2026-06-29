@@ -6,7 +6,7 @@ webgam for my project
 > As the skittle commercials say, "taste the rainbow, be the rainbow!"
 
 ## authorship
-- SilverRuins + [[silver-ruins]](https://github.com/silver-ruins), 6/2-/2026, v1
+- SilverRuins + [[silver-ruins]](https://github.com/silver-ruins), 6/29/2026, v1
 
 ## user story 
 - As a lover of the classic game of snake and a lover of skittles, I felt that someone such as myself shall turn my blood into the liquide caffine to power my will through crafting a beautiful rainbow serphant- eating skittles.
