@@ -86,7 +86,9 @@ Development Tools
 - Google Lighthouse
 - Semantic HTML elements (nav, header, section, footer)
 - Bootstrap accessibility features
-
+##### AI
+- Copilot
+- Devin AI
 ### Code Snidbit: Pause Function
 ```
 function togglePause() {
