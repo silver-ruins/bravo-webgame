@@ -19,8 +19,8 @@ Feed your pet rainbow snake Reggie! You help him maintain his lovely erridecent 
 
 ## about the app
 
-- [game concept ideas](https://github.com/silver-ruins/bravo-webgame/issues/1) 
-- [game wiki](https://github.com/silver-ruins/bravo-webgame.wiki.git)
+### - [game concept ideas](https://github.com/silver-ruins/bravo-webgame/issues/1) 
+### - [game wiki](https://github.com/silver-ruins/bravo-webgame.wiki.git)
 ```
 game/
 │
@@ -42,12 +42,80 @@ game/
 ├── wiki/
 │   └── wireframe.png
 ```
-- a list of tech & tools 
-  - e.g., vsCode (live server, todo, prettier), HTML (emmet), CSS (normalize, bs5 & bs icons), js (jQ, jQui), GitHub (repo, readme/markdwon, wiki, issues, GitHub pages)...others? 
-- a code snippet: use triple backticks and code syntax highlighting to show off a cool portion of your code, 
-  - e.g., this button's click (show html code) hit's this event (show js) calls this f/n (more js) and updates the dom
-- validation & accessibilty
- - links & reports using Nu & Lighthouse
-- finally, create & link to sprint 99/future ideas
-  - create a milestone: sprint 99
-  - create at least 3 issues for future ideas & label them as sprint 99 milestone
+### Tech & Tools
+##### Languages
+- HTML5 – Page structure and content
+- CSS3 – Styling, animations, and responsive layout
+- JavaScript (ES6) – Game logic, event handling, and storage APIs
+##### Frameworks & Libraries
+- Bootstrap 5 – Responsive layout, cards, navbar, buttons, and modal components
+- Bootstrap Icons – Game and interface icons
+- jQuery – Included for DOM manipulation and future enhancements (used in the Full version if desired)
+##### Web APIs
+- Canvas API – Renders the Snake game board and graphics
+- localStorage – Saves the leaderboard between browser sessions
+- sessionStorage – Stores the current player's name during a session
+- DOM API – Updates the score, game status, and user interface dynamically
+Development Tools
+- Visual Studio Code
+    - Live Server
+    - IntelliSense
+    - Prettier (optional)
+    - HTML/CSS/JavaScript language support
+- Git
+    - Version control
+    - Commits and branching
+    - GitHub
+    - Repository hosting
+    - GitHub Pages
+    - README documentation
+    - Issues
+    - Wiki
+    - Milestones (Sprint 99)
+##### Design & Planning
+- GitHub Issues (brainstorming game ideas)
+- GitHub Wiki (wireframe)
+- Wireframe sketch (hand-drawn or digital)
+##### Browser Features
+- Keyboard Event Listeners
+- Timers (setInterval() / clearInterval())
+- Browser detection (navigator.userAgent)
+- Date and time (Date object)
+##### Validation & Accessibility
+- W3C HTML Validator (Nu Validator)
+- Google Lighthouse
+- Semantic HTML elements (nav, header, section, footer)
+- Bootstrap accessibility features
+
+### Code Snidbit: Pause Function
+```
+function togglePause() {
+
+    if (!paused) {
+
+        clearInterval(gameLoop);
+
+        paused = true;
+
+        document.getElementById("gameStatus").textContent =
+            "Paused";
+
+        document.getElementById("pauseBtn").innerHTML =
+            '<i class="bi bi-play-fill"></i> Resume';
+
+    } else {
+
+        gameLoop = setInterval(updateGame, speed);
+
+        paused = false;
+
+        document.getElementById("gameStatus").textContent =
+            "Game Running";
+
+        document.getElementById("pauseBtn").innerHTML =
+            '<i class="bi bi-pause-fill"></i> Pause';
+
+    }
+
+}
+```
